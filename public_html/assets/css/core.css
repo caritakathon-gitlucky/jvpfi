@@ -2,6 +2,8 @@
 body,html{
     height:100%;
     width:100%;
+    font-family: 'Fontin',sans-serif;
+   
 }
 /* Owl CSS */
 .owl-container{
@@ -16,16 +18,14 @@ body,html{
 @media all and (max-width: 768px) and (min-width:   480px) {
     #owl-slider .item img{
         display: block;
-        width: 150% !important;
         height: auto;
-            min-height:100%;
     }
 }
 @media all and (max-width: 480px) {
     #owl-slider .item img{
         display: block;
-        width:auto;
-        min-height:100%;
+        width:100%;
+        
     }
 }
 /* Bootstrap Override */
@@ -35,7 +35,15 @@ body,html{
 }
 .navbar-brand,
 .navbar-nav li a {
-    line-height: 100px;
-    height: 100px;
+    line-height: 80px;
+    height: 80px;
     padding-top: 0;
+}
+.navbar-nav > .active > a{
+    background-color:#486E90 !important;
+    color:#fff !important;
+}
+#main-nav{
+    width:100%;
+    z-index:10;
 }

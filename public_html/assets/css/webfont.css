@@ -1,0 +1,24 @@
+/* Regular */
+@font-face {
+    font-family: 'Fontin';
+    src: url('../font/Fontin_Sans_R_45b.otf');
+    src: url('../font/Fontin_Sans_R_45b.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Fontin';
+    src: url('../font/Fontin_Sans_B_45b.otf');
+    src: url('../font/Fontin_Sans_B_45b.otf') format('opentype');
+    font-style: bold;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Fontin';
+    src: url('../font/Fontin_Sans_I_45b.otf');
+    src: url('../font/Fontin_Sans_I_45b.otf') format('opentype');
+    font-variant: italic;
+}
