@@ -1,0 +1,8 @@
+.owl-container{
+    width:100%;
+}
+#owl-slider .item img{
+    display: block;
+    width: 100% !important;
+    height: auto;
+}
