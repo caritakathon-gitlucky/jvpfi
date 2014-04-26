@@ -9,7 +9,7 @@ $(document).ready(function() {
       autoPlay: true,
       pagination: false,
       paginationNumbers: false,
-      autoHeight: true
+      autoHeight: false
       // "singleItem:true" is a shortcut for:
       // items : 1, 
       // itemsDesktop : false,
