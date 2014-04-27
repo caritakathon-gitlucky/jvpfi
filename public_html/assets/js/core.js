@@ -18,5 +18,17 @@ $(document).ready(function() {
       // itemsMobile : false
  
   });
- 
+  
+  $(window).scroll(function() {
+		$('#main-nav').each(function(){
+		var imagePos = $(this).offset().top;
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow) {
+				$(this).addClass("fadeIn");
+			}
+		});
+	});
+  
+  $("#main-nav").sticky({topSpacing:0});
+  
 });
